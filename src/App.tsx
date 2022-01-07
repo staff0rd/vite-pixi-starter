@@ -3,10 +3,6 @@ import { useEffect, useState } from "react";
 import { blueGrey } from "@mui/material/colors";
 import * as PIXI from "pixi.js";
 
-const RESOLUTION = 6;
-const WIDTH = 64 * RESOLUTION,
-  HEIGHT = 64 * RESOLUTION;
-
 function App() {
   const [app, setApp] = useState<PIXI.Application>();
 
